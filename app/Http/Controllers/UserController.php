@@ -9,7 +9,7 @@ class UserController extends Controller
     public function user(){
         return response()->json([
             "status" => "OK",
-            "message" => "HEroku is awesome!"
+            "message" => "Hello sam! Kiyod is life?"
         ]);
     }
 }

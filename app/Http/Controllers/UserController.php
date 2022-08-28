@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function user_data(){
+    public function user(){
         return response()->json([
             "status" => "OK",
             "message" => "HEroku is awesome!"
